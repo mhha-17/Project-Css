@@ -1,0 +1,346 @@
+/* Common Css Start */
+*{
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    box-sizing: border-box;
+}
+.container{
+    width: 1170px;
+    margin: auto;
+}
+.row{
+    display: flex;
+    flex-wrap: wrap;
+}
+ol,ul{
+    list-style-type: none;
+}
+a{
+    text-decoration: none;
+}
+/* //Common Css End */
+
+/* Banner Section Css Start */
+#banner{
+    background-image: url(../img/background-1.png);
+    height: 500px;
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    z-index: 1;
+}
+#banner::after{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background-color: #000000;
+    z-index: -1;
+    opacity: .7;
+}
+#banner .logo{
+    width: 30%;
+    padding-top: 10px;
+}
+#banner .logo p{
+    display: inline-block;
+}
+#banner .logo p{
+    font-family: 'lato';
+    font-size: 14px;
+    font-weight: 100;
+    font-style: italic;
+    color: gray;
+    padding-top: 10px;
+}
+#banner .logo p span{
+    margin: 0 15px;
+}
+#banner .menu{
+    width: 70%;
+}
+#banner .menu ul{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+}
+#banner .menu ul li a{
+    font-size: 12px;
+    font-family: 'lato';
+    font-weight: 100;
+    color: #ffffff;
+    padding: 0 15px;
+    padding-top: 0 10px;
+    transition: all .4s linear;
+}
+#banner .menu ul li a:hover{
+    color: #4bc7ff;
+}
+#banner .banner_content{
+    color: white;
+    width: 80%;
+    padding: 90px 110px;
+}
+#banner .banner_content h1{
+    font-family: 'lato';
+    font-size: 62px;
+    font-weight: 400;
+}
+#banner .banner_content h4{
+    font-family: 'lato';
+    font-size: 48px;
+    font-weight: 400;
+    color: #ffffff;
+}
+#banner .banner_content h4 span{
+    color: #4770f1;
+}
+#banner .banner_content p{
+    font-family: 'Open Sans';
+    font-weight: 18px;
+    color: #ffffff;
+    padding-top: 15px;
+}
+#banner .banner_btn i{
+    padding: 30px 10px;
+    color: gray;
+}
+#banner .banner_img{
+    width: 20%;
+}
+#banner .banner_img img{
+    height: 418px;
+    width: 204px;
+    position: absolute;
+    bottom: 0;
+}
+/* //Banner Section Css End */
+
+/* Features Section Start */
+#features{
+    background-color: #efefef;
+    height: 434px;
+    padding-top: 75px;
+    padding-bottom: 115px ;
+}
+#features .f-sec_info{
+    text-align: center;
+}
+#features .f-sec_info h2{
+    font-family: 'lato';
+    font-size: 28px;
+    font-weight: 900;
+    color: #4c76ff;
+    text-transform: uppercase;
+}
+#features .f_content h5{
+    font-family: 'Open Sans';
+    font-weight: 600;
+    color: #10293b;
+}
+#features .f_content p{
+    font-family: 'Open Sans';
+    width: 244px;
+    font-size: 10.91px;
+    line-height: 15px;
+    padding-top: 15px;
+    color: #4b484b;
+}
+#features .features_item{
+    width: 28%;
+    padding: 84px 26px;
+    position: relative;
+    margin-left: 32px;
+}
+#features .f_btn{
+    font-size: 15px;
+    text-align: center;
+    padding-top: 4px;
+    border: 1px solid #4c76ff;
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+    position: absolute;
+    left: -8px;
+    bottom: 145x;
+}
+/* //Features Section Css End */
+
+/* Function Section Css Start */
+#function{
+    padding: 90px 0;
+}
+#function .function_info p{
+    font-size: 15.8px;
+    font-family: 'open sans';
+    margin: auto;
+    text-align: center;
+    font-family: 'Open Sans';
+    line-height: 28px;
+    color: rgb(34, 33, 33);
+    width: 780px;  
+}
+#function .row .function_1,
+#function .row .function_2{
+    padding-top: 130px;
+    padding-bottom: 70px;
+}
+#function .row .function_img{
+    padding-top: 10px;
+}
+#function .row .function_1{
+    width: 35%;
+    padding-left: 70px;
+}
+#funcion .row .function_img{
+    width: 30%;
+}
+#function .row .function_2{
+    width: 35%;
+    padding-left: 80px;
+}
+#function .function_items{
+    position: relative;
+}
+#function .func_btn2{
+    position: absolute;
+    left: -40px;
+}
+#function .row .func_btn2{
+    font-size: 20px;
+}
+#function .func_content{
+    width: 200px;
+}
+#function .func_content h5{
+    font-family: 'Open Sans';
+    font-size: 13.5px;
+    font-weight: 700;
+    color: #282528;   
+}
+#function .func_content p{
+    font-family: 'Open Sans';
+    font-size: 11px;
+    color: #282528;
+    margin-top: 10px;
+    margin-bottom: 70px;
+}
+#function .function_img{
+    height: 550px;
+    width: 260px;
+    margin: auto;
+}
+#function .row .func_btn2 a i{
+     color: #c7c2c7;;
+}
+/* //Function Section Css End*/
+
+/* Work Section Css Start */
+#work h2{
+    font-family: 'lato';
+    font-size: 28px;
+    font-weight: 900;
+    text-align: center;
+    color: #4c76ff;
+    text-transform: uppercase;
+}
+#work .work_item .line{
+    text-align: center;
+}
+#work p{
+    font-family: 'lato';
+    font-size: 14px;
+    font-weight: 100;
+    width: 700px;
+    text-align: center;
+    margin: auto;
+    margin-top: 85px;
+}
+#work .row .work_menu ul{
+    display: flex;
+    flex-wrap: wrap;
+}
+#work .row .work_menu ul li{
+    font-family: 'lato';
+    font-weight: 900;
+    font-size: 14px;
+    padding: 10px 25px;
+} 
+#work .row .work_menu ul li a{
+    text-align: center;
+    color: #172f41;
+    background-color: white;
+    padding: 8px 14px;
+    transition: all .4s linear;
+}
+#work .row .work_menu ul li a:hover{
+    background-color: #4c76ff;
+    padding: 8px 14px;
+    border-radius: 5px;
+    color: white;
+}
+#work .work_menu{
+    margin: 0;
+    padding-top: 80px;
+}
+#work .work_item{
+    display: flex;
+    flex-wrap: wrap;
+}
+#work .work_item .work_img img{
+    width: 100%;
+    display: block;
+}
+#work .work_img{
+    width: 25%;
+    position: relative;
+}
+#work .work_img .wark_img_hover{
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    background-color: rgba(76,118,255,0.80);
+    padding-top: 70px;
+    opacity: 0;
+    visibility: hidden;
+    transition: all .4s linear;
+}
+#work .work_img:hover .wark_img_hover{
+    opacity: 1;
+    visibility: visible;
+}
+#work .work_item{
+    text-align: center;
+}
+#work .work_img h5{
+    font-family: 'open sans';
+    font-weight: 700;
+    font-size: 14px;
+    padding-top: 10px;
+    color: white;
+}
+#work .work_img h6{
+    font-family: 'open sans';
+    font-weight: 700;
+    font-size: 10.27px;
+    color: white;
+    padding-top: 5px;
+}
+#work .work_img a i{
+    color: white;
+    border: 1px solid white;
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+    font-size: 12px;
+    padding: 8px;
+}
+#work .work_content{
+    padding: 85px 0;
+}
+/* //Work Section Css End */
